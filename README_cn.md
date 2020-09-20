@@ -1,6 +1,6 @@
 ## <center> **QWERTY**用户使用的 [NeoVim](https://neovim.io) 配置文件</center>
 
-**Fork in theniceboy/nvim
+**Fork in theniceboy/nvim**
 
 
 <center><img src="https://raw.githubusercontent.com/theniceboy/nvim/master/demo.png"></center>
