@@ -1,4 +1,4 @@
-## <center>The Ultimate NeoVim Config for [QWERTY] Users</center>
+## <center>The Ultimate NeoVim Config for **QWERTY** Users</center>
 
 **Fork in theniceboy/nvim**
 
