@@ -191,6 +191,19 @@ map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans
 \ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
 \ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
 
+
+call defx#custom#option('_', {
+       'winwidth': 30,
+       'split': 'vertical',
+       'direction': 'topleft',
+       'show_ignored_files': 0,
+       'buffer_name': '',
+       'toggle': 1,
+       'resume': 1
+       })
+nmap <silent> <Leader>e :Defx <cr>
+
+
 " Compile function
 noremap r :call CompileRunGcc()<CR>
 func! CompileRunGcc()
@@ -244,6 +257,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 " Testing my own plugin
 " Plug 'theniceboy/vim-calc'
+Plug 'kristijanhusak/defx-icons'
 
 " Pretty Dress
 Plug 'bling/vim-bufferline'
