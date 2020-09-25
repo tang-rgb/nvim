@@ -408,7 +408,7 @@ Plug 'lambdalisue/suda.vim' " do stuff like :sudowrite
 " Plug 'roxma/nvim-yarp'
 
 Plug 'mhinz/vim-startify'
-
+Plug 'Shougo/defx.nvim'
 call plug#end()
 set re=0
 
