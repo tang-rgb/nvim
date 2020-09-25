@@ -407,6 +407,7 @@ Plug 'lambdalisue/suda.vim' " do stuff like :sudowrite
 " Plug 'kana/vim-textobj-user'
 " Plug 'roxma/nvim-yarp'
 
+Plug 'mhinz/vim-startify'
 
 call plug#end()
 set re=0
